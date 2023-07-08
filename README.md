@@ -13,7 +13,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
@@ -127,7 +126,7 @@ I want to thank my coding partner Nouman Walli who discussed the technical areas
 
 ## 📝 License <a name="license"></a>
   
-This project is LICENSE licensed.
+This project is [MIT](./LICENSE) licensed
 
 <br />
 
