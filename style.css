@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
   .unordered-list {
     list-style-type: none;
-    padding-left : 16px;
+    padding-left: 16px;
   }
 
   .my-logo-line {
@@ -62,7 +62,6 @@
   }
 
   body {
-    padding-top : 7px ; 
+    padding-top: 7px;
   }
-  
 }
