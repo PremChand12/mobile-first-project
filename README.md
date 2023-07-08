@@ -57,7 +57,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need to clone github repository using command : git clone https://github.com/PremChand12/hello-world-microverse
+In order to run this project you need to clone github repository using command : git clone [https://github.com/PremChand12/hello-world-microverse](https://github.com/PremChand12/mobile-first-project)
 
 ### Setup
 
@@ -106,7 +106,7 @@ git push
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page].(https://github.com/PremChand12/hello-world-microverse/issues).
+Feel free to check the [issues page].[(https://github.com/PremChand12/mobile-first-project)].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
