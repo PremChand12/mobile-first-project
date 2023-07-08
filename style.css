@@ -30,7 +30,7 @@
 
   .name-tag {
     color: var(--neutrals-n-800, "#172B4D");
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -39,7 +39,7 @@
 
   .bio-info {
     color: var(--neutrals-n-600, "#344563");
-    font-family: Poppins;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
