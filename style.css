@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+  .unordered-list {
+    list-style-type: none;
+  }
+
+  .my-logo-line {
+    color: var(--primary-b-400, "#6070FF");
+    text-align: center;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 20px;
+  }
+
+  .hamburger-height-width {
+    height: 50%;
+  }
+
+  main {
+    background-image: url("Images/header-shapes\ mobile@2.png");
+    background-size: cover;
+    height: 587.1460571289062px;
+    top: 103.9993896484375px;
+    left: -34px;
+    border: 1px;
+  }
+
+  .name-tag {
+    color: var(--neutrals-n-800, "#172B4D");
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+  }
+
+  .bio-info {
+    color: var(--neutrals-n-600, "#344563");
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  h6 {
+    color: var(--primary-b-300, "#7F8CFF");
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .icon-size {
+    width: 19.986px;
+    height: 19.962px;
+    flex-shrink: 0;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
