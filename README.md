@@ -127,7 +127,7 @@ I want to thank my coding partner Nouman Walli who discussed the technical areas
 
 ## 📝 License <a name="license"></a>
   
-This project is [MIT](MIT.md) licensed.
+This project is LICENSE licensed.
 
 <br />
 
