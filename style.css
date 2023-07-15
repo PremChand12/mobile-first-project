@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 375px) {
   .unordered-list {
     list-style-type: none;
     padding-left: 16px;
@@ -21,11 +21,12 @@
 
   main {
     background-image: url("Images/header-shapes\ mobile@2.png");
-    background-size: cover;
     height: 587.1460571289062px;
     top: 103.9993896484375px;
     left: -34px;
     border: 1px;
+    border-bottom-left-radius: 50px;
+    background-size: cover;
   }
 
   .name-tag {
@@ -61,7 +62,258 @@
     margin-right: 20px;
   }
 
-  body {
+  .body {
     padding-top: 7px;
+    background-color: "#dfe1e6";
+    padding-bottom: 20px;
+  }
+
+  .work-background-all {
+    display: grid;
+    padding: 114px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+    background-color: rgba(239, 240, 244, 0.896);
+  }
+
+  .work-area-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    border: 1px solid var(--neutrals-n-40, "#dfe1e6");
+    background: white;
+    padding: 15px;
+  }
+
+  .tonic-image {
+    width: 295px;
+    height: 220px;
+    border-radius: 8px;
+    background: url("Images/Tonic-1.png"), lightgray 50% / cover no-repeat;
+  }
+
+  .work-text-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .work-area-header {
+    color: var(--neutrals-n-800, "#172B4D");
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 137.5% */
+  }
+
+  .specification {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .user-name {
+    color: var(--neutrals-n-600, "#344563");
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 123.077% */
+  }
+
+  .description {
+    color: var(--neutrals-n-600, "#344563");
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    width: 295px;
+    height: 76px;
+  }
+
+  .skills-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+    padding-left: 0;
+  }
+
+  .skills-text > li {
+    display: flex;
+    padding: 4px 12px;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--primary-b-50, #ebebff);
+    color: var(--primary-b-400, #6070ff);
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.36px;
+  }
+
+  .button1 {
+    background-color: white;
+    color: var(--primary-b-500, #396df2);
+    text-align: center;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 141.176% */
+    letter-spacing: 0.51px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-b-400, #6070ff);
+    padding: 10px 8px;
+  }
+
+  .button1:hover {
+    border-radius: 8px;
+    background: var(--theme-1-primary-colors-2, #6070ff);
+    box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
+    color: white;
+  }
+
+  .about-myself-background {
+    display: flex;
+    padding: 114px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-top-right-radius: 50px;
+  }
+
+  .about-myself-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .about-myself-heading {
+    color: var(--neutrals-n-800, #172b4d);
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 130% */
+  }
+
+  .social-media-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .social-sub-heading {
+    color: var(--primary-b-300, #7f8cff);
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+
+  .social-media-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 16px;
+    row-gap: 8px;
+    padding-left: 0;
+  }
+
+  .social-media-list > li {
+    align-items: flex-start;
+    list-style: none;
+  }
+
+  .icons {
+    width: 18px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  .get-my-resume-button {
+    border-radius: 8px;
+    border: 1px solid var(--primary-b-400, #6070ff);
+    padding: 12px;
+    color: var(--primary-b-500, #396df2);
+    text-align: center;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 141.176% */
+    letter-spacing: 0;
+    background-color: #fff;
+  }
+
+  .get-my-resume-button:hover {
+    border-radius: 8px;
+    background: var(--theme-1-primary-colors-2, #6070ff);
+    box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
+    color: white;
+  }
+
+  .un-ordered-end {
+    display: grid;
+    padding: 16px 26px 16px 10px;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
+  }
+
+  .un-ordered-end > li {
+    align-items: center;
+  }
+
+  .languages-heading {
+    width: 237px;
+    color: #000;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px; /* 120% */
+  }
+
+  .languages-names {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 0;
+    gap: 12px;
+  }
+
+  .languages-names > li {
+    display: flex;
+    column-gap: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    background: var(--neutrals-n-10, "#f7f7f9");
+    width: 90%;
+  }
+
+  .end-names {
+    color: var(--neutrals-n-700, #253858);
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 133.333% */
+    padding-top: 15px;
   }
 }
