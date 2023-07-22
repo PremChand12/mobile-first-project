@@ -96,7 +96,7 @@ git push
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[add_buttons_to_website]**
+- [ ] **[add_hidden_gift_boxes_to_website]**
 - [ ] **[add_sub_sections_with-more-information]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
